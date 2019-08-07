@@ -1,8 +1,6 @@
 
-import styled from 'styled-components/macro'
+import styled from 'styled-components'
 import { style, space, layout, typography, color, position, flexbox } from 'styled-system'
-
-export { css } from 'styled-components'
 
 export const Box = styled.div(
   {boxSizing: 'border-box'},
