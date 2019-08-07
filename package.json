@@ -1,6 +1,6 @@
 {
   "name": "@alobato/flex-box",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Flex and Box react components",
   "main": "index.js",
   "repository": "github:alobato/flex-box",
