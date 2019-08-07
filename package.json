@@ -1,0 +1,35 @@
+{
+  "name": "@alobato/flex-box",
+  "version": "1.0.0",
+  "description": "Flex and Box react components",
+  "main": "index.js",
+  "repository": "github:alobato/flex-box",
+  "author": "alobato",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "react",
+    "flex",
+    "box"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "devDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0"
+  },
+  "dependencies": {
+    "styled-components": "^4.3.2",
+    "styled-system": "^5.0.20"
+  },
+  "bugs": {
+    "url": "https://github.com/alobato/flex-box/issues"
+  },
+  "homepage": "https://github.com/alobato/flex-box#readme"
+}
