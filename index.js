@@ -1,6 +1,6 @@
 
 import styled from 'styled-components'
-import { style, space, layout, typography, color, position, flexbox } from 'styled-system'
+import { style, flex, space, layout, typography, color, position, flexbox } from 'styled-system'
 
 export { css } from 'styled-components'
 
@@ -11,6 +11,7 @@ export const Box = styled.div(
   typography,
   color,
   position,
+  flex,
   style({prop: 't', cssProperty: 'top', transformValue: n => /^\d+$/.test(n) ? n + 'px': n}),
   style({prop: 'r', cssProperty: 'right', transformValue: n => /^\d+$/.test(n) ? n + 'px': n}),
   style({prop: 'b', cssProperty: 'bottom', transformValue: n => /^\d+$/.test(n) ? n + 'px': n}),
